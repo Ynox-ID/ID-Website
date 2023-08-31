@@ -1,0 +1,47 @@
+h1{
+	margin-top: 10%;
+}
+
+h3 {
+	display: inline-block;
+	color: black;
+	background-color: silver;
+	padding: 1% 2%;
+	margin: 0;
+	font-size: 2vw;
+	border-radius: 40px;
+}
+
+article {
+	font-size: 1.5vw;
+	background-color: gray;
+	border-radius: 45px;
+	padding: 1% 1.5%;
+	max-width: 75%;
+	width: fit-content;
+	margin: 0.2% 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin:10% auto;
+	width: 80%;
+}
+
+figcaption {
+	font-size: 20px;
+	margin: 0 2%;
+}
+
+article.answer {
+	align-self: flex-end;
+	background-color: SteelBlue;
+	margin-top: 3%;
+}
+
+figcaption.answer {
+	align-self: flex-end;
+	margin-bottom: 3%;
+}

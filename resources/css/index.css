@@ -1,0 +1,55 @@
+.banner {
+	background: left linear-gradient(to left, transparent 15%, lightgray 70%), url('../img/DemoZone_Day.png') fixed;
+	background-size: cover;
+	height: 1200px;
+	margin-top: 0;
+}
+
+.banner h1 {
+	width: 35%;
+}
+
+.blur {
+	height: inherit;
+	backdrop-filter: blur(5px);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	margin: 15% 0;
+}
+
+.version1 {
+	border-radius: 999px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 35%;
+	margin: 3%;
+	font-size: 1.8vw;
+	padding: 2%;
+}
+
+.version1:nth-of-type(even) {
+	align-self: flex-end;
+}
+
+.test {
+	background-color: rgb(15,15,15);
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	color: lightgray;
+}
+
+.test img {
+	width: 30%;
+	margin-top: -15%;
+	filter: drop-shadow(10px 10px 10px black);
+}

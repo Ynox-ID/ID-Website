@@ -1,0 +1,94 @@
+#Menu
+{
+	margin-top:0%;
+	background-image:url(images/MENU.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width:30%;
+	height:auto%;
+	text-align:center;
+	float:left;
+	display:inline-block
+}
+
+#SI
+{
+	width:89%;
+	height:auto%;
+	margin-top:1%;
+	transition:0.3s;
+}
+#SI:hover
+{
+	width:99%;
+	margin-top:0%;
+	filter: invert(1);
+}
+
+.B_Button
+{
+	padding:3%;
+	display:inline-block;
+	font-family: "Gotham", serif;
+	font-size:2vw;
+	background-color: #2F1F33;
+	border-color: rgba(0,0,0,0);
+	transition:0.2s;
+	color: #C49ECC;
+	width:85%;
+	margin-right:5%;
+}
+.B_Button:hover
+{
+	font-weight:bold;
+	opacity:1;
+	width:90%;
+	margin-right:10%;
+	background-color: #754B7F;
+}
+
+.icon
+{
+	width:17%;transition:0.3s;
+}
+
+#YT:hover
+{
+	filter: hue-rotate(-40deg) saturate(2000%);
+}
+
+#TW:hover
+{
+	filter: hue-rotate(180deg) saturate(1500%);
+}
+
+#DI:hover
+{
+	filter: hue-rotate(190deg) saturate(1000%);
+}
+
+.contenue
+{
+	display:inline-block;
+	font-family: "Futura", serif;
+	font-size:1.5vw;
+	text-align:justify;
+	background-color:#7F6F4B;
+	color:#332E1C;
+	padding:0.5%;
+}
+
+#txt1
+{
+	width:45%;
+	margin-top:15%;
+	margin-left:3%;
+	
+}
+
+#txt2
+{
+	width:30%;
+	margin-top:8%;
+	margin-left:30%;
+}
