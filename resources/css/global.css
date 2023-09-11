@@ -36,7 +36,7 @@
 }
 
 body {
-	font-family: "Nunito";
+	font-family: "Nunito", serif;
 	margin: 0; 
 	background-color: lightgray;
 }
@@ -68,24 +68,24 @@ a {
 
 header {
 	position: fixed;
-	top:30px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 1;
 	background-color: gray;
-	width: 50%;
+	width: 40%;
 	min-width: 800px;
 	text-align: center;
-	border-radius: 300px;
+	border-radius: 0 0 40px 40px;
 	display: flex;
 	justify-content: space-between;
 	height: 80px;
+	top: 0;
 }
 
 header > nav {
 	display: flex;
-	width: 80%;
-	line-height: 75px;
+	width: 90%;
+	line-height: 80px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -98,11 +98,12 @@ header > nav {
 	letter-spacing: 4px;
 	color: black;
 	font-size: 32px;
-	width:30%;
-	border-radius: 999px;
+	width:50%;
+	border-radius: 0 0 40px 40px;
 }
 .YD_button:hover {
 	letter-spacing: 12px;
+	padding-left: 6px;
 	background-color: dimgray;
 }
 
