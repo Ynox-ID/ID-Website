@@ -43,23 +43,24 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 72px;
+	font-size: 78px;
 }
 
 h2 {
-	font-size: 56px;
+	text-align: center;
+	font-size: 62px;
 }
 
 h3 {
-	font-size: 42px;
+	font-size: 46px;
 }
 
 h4 {
-	font-size: 36px;
+	font-size: 38px;
 }
 
 h5 {
-	font-size: 22px;
+	font-size: 26px;
 }
 
 a {

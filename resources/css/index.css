@@ -1,7 +1,8 @@
 .banner {
 	background: left linear-gradient(to left, transparent 15%, lightgray 70%), url('../img/DemoZone_Day.png') fixed;
 	background-size: cover;
-	height: 1200px;
+	height: 100vh;
+	background-position-x: center;
 	margin-top: 0;
 }
 
@@ -46,6 +47,27 @@ section{
 	align-items: center;
 	justify-content: space-around;
 	color: lightgray;
+}
+
+.test section {
+	margin: 5% 0;
+}
+
+.button{
+	display: block;
+	margin: auto;
+	padding: 3%;
+	/*background-color: lightgray;*/
+	border-radius: 200px;
+	position: relative;
+	background: linear-gradient(to right, lightgreen 50%, lightgray 51%);
+	background-size: 200%;
+	background-position: 100%;
+}
+.button:hover{
+	background-position: 0;
+	transform: scale(115%);
+	/*font-size: 26px;*/
 }
 
 .test img {

@@ -3,15 +3,39 @@ main{
 }
 
 section{
+    margin: 10% auto;
+}
+
+section#team{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    margin: auto;
+    align-items: baseline;
+}
+
+section#join{
+    width: 50%;
+    text-align: center;
 }
 
 article{
     width: 30%;
     text-align: center;
+}
+
+section:hover > .more{
+    width: 167%;
+}
+
+.more {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    padding-left: 100%;
+    width: 0;
+    background: aqua;
+    border-radius: 200px;
 }
 
 h3{
