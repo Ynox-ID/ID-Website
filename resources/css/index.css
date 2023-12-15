@@ -4,6 +4,7 @@
 	height: 100vh;
 	background-position-x: center;
 	margin-top: 0;
+	box-shadow: inset black 0 -50px 50px -50px;
 }
 
 .banner h1 {
@@ -33,6 +34,7 @@ section{
 	margin: 3%;
 	font-size: 1.8vw;
 	padding: 2%;
+	box-shadow: DimGray 5px 5px 15px;
 }
 
 .version1:nth-of-type(even) {
